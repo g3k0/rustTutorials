@@ -10,3 +10,9 @@ This repository cointains the example code written studying [The Book](https://d
 * [Rust Youtube channel](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA)
 * [Rust subreddit](https://www.reddit.com/r/rust/)
 * [Rust tutorial video](https://www.youtube.com/watch?v=ygL_xcavzQ4)
+* [Rust official blog](https://blog.rust-lang.org/)
+* [Rust standard library](https://doc.rust-lang.org/std/index.html)
+* [Rust by example](https://doc.rust-lang.org/rust-by-example/index.html)
+* [Rustlings](https://github.com/rust-lang/rustlings)
+* [Rust playground](https://play.rust-lang.org/)
+
