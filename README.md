@@ -15,4 +15,5 @@ This repository cointains the example code written studying [The Book](https://d
 * [Rust by example](https://doc.rust-lang.org/rust-by-example/index.html)
 * [Rustlings](https://github.com/rust-lang/rustlings)
 * [Rust playground](https://play.rust-lang.org/)
-
+* [Rust design patterns](https://rust-unofficial.github.io/patterns/)
+ * [Other Rust design patterns](https://refactoring.guru/design-patterns/rust)
