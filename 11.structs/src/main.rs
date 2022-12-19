@@ -76,4 +76,11 @@ fn main() {
      * types, because they’re instances of different tuple 
      * structs.
      */
+
+     // ou can also define structs that don’t have any fields! These are called unit-like structs 
+    struct AlwaysEqual;
+
+    fn main() {
+        let subject = AlwaysEqual;
+    }
 }
