@@ -2,3 +2,20 @@ cargo new // crea un progetto rust con repo git
 cargo build // fa la build del codice
 cargo run // fa la build ed esegue l'applicazione
 cargo check // esegue un controllo del codice ed evidenzia gli errori
+cargo new restaurant --lib // crea la libreria restaurant
+
+
+il compilatore cerca in automatico:
+
+binary crates  -> main.rs (root crate)
+library crate  --> lib.rs
+module crate  --> mod nome_modulo {}, nome_modulo.rs, src/nome_modulo/mod.rs
+
+altri binary crates sono posti nella directory src/bin. Un package può essere un library crate o un binary crate, ad ogni modo il package può contenere più binary crates ma solo un library crate.
+
+un modulo può contenere la dichiarazione di sub modules, ogni modulo identifica uno scope per i path. La sintassi dei submodules è la stessa che per i modules. Per accedere al tipo Asparagus in un submodule vegetables di questo tipo:
+
+src/garden/vegetables/mod.rs
+
+si fa: crate::garden::vegetables::Asparagus.
+I path dentro un modulo sono private di default, a meno che non li si dichaira pub.
