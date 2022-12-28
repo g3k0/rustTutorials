@@ -7,6 +7,7 @@ This repository cointains the example code written studying [The Book](https://d
 * [Rust official website](https://www.rust-lang.org/)
 * [Rust documentation](https://doc.rust-lang.org/)
 * [Rust Book](https://doc.rust-lang.org/book/)
+* [Rust standard library](https://doc.rust-lang.org/std/collections/index.html)
 * [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/about.html)
 * [Rust Youtube channel](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA)
 * [Rust subreddit](https://www.reddit.com/r/rust/)
