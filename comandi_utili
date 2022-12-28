@@ -4,6 +4,11 @@ cargo run // fa la build ed esegue l'applicazione
 cargo check // esegue un controllo del codice ed evidenzia gli errori
 cargo new restaurant --lib // crea la libreria restaurant
 
+------------------------------
+To install nightly version: rustup install nightly
+To set nightly version as default: rustup default nightly
+At anytime if you want to switch back to stable Rust: rustup default stable
+
 
 il compilatore cerca in automatico:
 
