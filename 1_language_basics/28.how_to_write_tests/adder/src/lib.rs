@@ -44,7 +44,7 @@ impl Guess {
     }
 }
 
-#[cfg(test)]
+#[cfg(test)] //  annotation on the tests module tells Rust to compile and run the test code only when you run cargo test, not when you run cargo build
 mod tests {
     use super::*;
 

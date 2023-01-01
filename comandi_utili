@@ -3,6 +3,13 @@ cargo build // fa la build del codice
 cargo run // fa la build ed esegue l'applicazione
 cargo check // esegue un controllo del codice ed evidenzia gli errori
 cargo new restaurant --lib // crea la libreria restaurant
+cargo test // esegue tutti i test nel progetto
+cargo test -- --test-threads=1 // non esegue i test in parallelo
+cargo test -- --show-output // mostra gli output dei test che passano
+cargo test <nome_test> // esegue un singolo test
+cargo test <sotto_stringa> // esegue tutti i test che contengono la sottostringa nel nome
+cargo test -- --ignored // esegue solo i test con il flag ignored
+cargo test --test <nome_test> // esegue un particolare integration test
 
 ------------------------------
 To install nightly version: rustup install nightly
