@@ -95,6 +95,7 @@ fn main() {
       that is out of your control and it returns an invalid state 
       that you have no way of fixing.
       However, when failure is expected, it’s more appropriate 
+      
       to return a Result than to make a panic! call 
       */
 
